@@ -1,5 +1,5 @@
 {
-  "name": "baileys",
+  "name": "@viniciusdev772/baileys-modified",
   "type": "module",
   "version": "7.0.0-rc.9",
   "description": "A WebSockets library for interacting with WhatsApp Web",
@@ -7,9 +7,10 @@
     "whatsapp",
     "automation"
   ],
-  "homepage": "https://github.com/WhiskeySockets/Baileys/",
+  "homepage": "https://github.com/viniciusdev772/Baileys-modified",
   "repository": {
-    "url": "git@github.com:WhiskeySockets/Baileys.git"
+    "type": "git",
+    "url": "https://github.com/viniciusdev772/Baileys-modified.git"
   },
   "license": "MIT",
   "author": "Rajeh Taher",
@@ -105,6 +106,9 @@
     }
   },
   "packageManager": "yarn@4.9.2",
+  "publishConfig": {
+    "access": "public"
+  },
   "engines": {
     "node": ">=20.0.0"
   }
